@@ -1,0 +1,45 @@
+
+
+.active {
+    background: linear-gradient(#87cbf8, #8f91ff);
+    color: #ffffff;
+    padding: 1px 8px;
+    border-radius: 4px;
+}
+
+.mark {
+    display: flex;
+    flex-direction: row;
+    background-color: #646cff;
+    color: #ffffff;
+    padding: 5px 5px;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.menu-list {
+    display: flex;
+    flex-direction: row;
+    gap: 2.5em;
+    align-items: center;
+}
+
+.menu-list li {
+    list-style-type: none;
+}
+
+.menu-list a {
+    font-size: 1.2em;
+    color: black;
+    transition: color 0.15s ease-in-out;
+}
+
+.menu-list a:hover {
+    color: #f2feff;
+}
+
+.linkBlog {
+    color: black;
+    transition: color 0.15s ease-in-out;
+}
